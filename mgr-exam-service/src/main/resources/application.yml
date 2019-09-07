@@ -1,0 +1,19 @@
+
+#数据源配置spring:
+spring  :
+  datasource:
+    url: jdbc:mysql:///examsys
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1234
+
+#mybatis别名，以及映射文件路径
+mybatis:
+  type-aliases-package: cn.bdqn.stumanage.pojo
+  mapper-locations: classpath:mapper/*.xml
+
+#服务器配置
+server:
+  port: 8099
+  servlet:
+    context-path: /

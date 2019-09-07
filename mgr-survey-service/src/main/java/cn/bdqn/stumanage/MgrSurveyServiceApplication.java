@@ -8,6 +8,6 @@ public class MgrSurveyServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MgrSurveyServiceApplication.class, args);
-	}
 
+	}
 }
