@@ -1,6 +1,8 @@
 package cn.bdqn.stumanage.mapper;
 
+import cn.bdqn.stumanage.pojo.Exam;
 import cn.bdqn.stumanage.pojo.Options;
+import cn.bdqn.stumanage.pojo.TestPaper;
 import cn.bdqn.stumanage.pojo.TitleInfo;
 import org.apache.ibatis.annotations.Param;
 
@@ -15,5 +17,8 @@ public interface ExamMapper {
 
     void saveoptions(@Param("o") Options o);
 
+    List<Exam> getAllExam();
+
+    List<TestPaper> getAllTestPaper();
 
 }

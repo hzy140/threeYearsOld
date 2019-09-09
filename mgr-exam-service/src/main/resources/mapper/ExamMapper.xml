@@ -34,4 +34,11 @@
                     );
     </insert>
 
+    <select id="getAllExam" resultType="Exam">
+      select * from  exam;
+    </select>
+
+    <select id="getAllTestPaper" resultType="TestPaper">
+      select * from  testpaper;
+    </select>
 </mapper>

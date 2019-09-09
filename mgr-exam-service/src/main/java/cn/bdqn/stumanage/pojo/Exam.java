@@ -10,7 +10,7 @@ public class Exam {
     private Date starttime;
     private Date endtime;
     private String classid;
-    private int testpaperid;//试卷
+    private int testpaperid;//试卷id
 
     public int getEid() {
         return eid;
