@@ -1,8 +1,10 @@
 package cn.bdqn.stumanage.service.impl;
 
 import cn.bdqn.stumanage.mapper.ExamMapper;
+import cn.bdqn.stumanage.pojo.Options;
 import cn.bdqn.stumanage.pojo.TitleInfo;
 import cn.bdqn.stumanage.service.ExamService;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +18,12 @@ public class ExamServiceImpl implements ExamService {
     ExamMapper examMapper;
 
     @Override
-    public void saveTitleInfo(TitleInfo tits) {
+    public void saveTitleInfo(TitleInfo tits)  throws Exception{
         examMapper.saveTitleInfo(tits);
+    }
+
+    @Override
+    public void saveoptions(Options o) {
+        examMapper.saveoptions(o);
     }
 }

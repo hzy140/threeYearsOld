@@ -9,9 +9,17 @@ package cn.bdqn.stumanage.pojo;
  */
 public class TitleInfo {
     private int qid;
+    private String questitle;//题目
     private String questionType;//类型
-    private String quesPic;//选项图片
     private String quesanswer;//答案
+
+    public String getQuestitle() {
+        return questitle;
+    }
+
+    public void setQuestitle(String questitle) {
+        this.questitle = questitle;
+    }
 
     public int getQid() {
         return qid;
@@ -29,19 +37,21 @@ public class TitleInfo {
         this.questionType = questionType;
     }
 
-    public String getQuesPic() {
-        return quesPic;
-    }
-
-    public void setQuesPic(String quesPic) {
-        this.quesPic = quesPic;
-    }
-
     public String getQuesanswer() {
         return quesanswer;
     }
 
     public void setQuesanswer(String quesanswer) {
         this.quesanswer = quesanswer;
+    }
+
+    @Override
+    public String toString() {
+        return "TitleInfo{" +
+                "qid=" + qid +
+                ", questitle='" + questitle + '\'' +
+                ", questionType='" + questionType + '\'' +
+                ", quesanswer='" + quesanswer + '\'' +
+                '}';
     }
 }

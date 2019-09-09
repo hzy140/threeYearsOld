@@ -1,0 +1,386 @@
+/* CSS Document */
+
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family: "微软雅黑";
+	line-height:20px;
+	background-color:#e2e0e2;
+}
+img {
+	border:0px;
+}
+ul, li {
+	list-style:none;
+}
+#header, #enterExamRoom, #examineeLogin, #footer {
+	min-width:1050px;
+	clear:both;
+	overflow:hidden;
+}
+#header {
+	background-color:#FFF;
+}
+.top {
+	width:1050px;
+	margin:0px auto;
+	overflow:hidden;
+	height:100px;
+}
+.logoNew {
+	float:left;
+	padding:35px 0px 0px 50px;
+}
+.inTurn {
+	float:left;
+	padding:20px 0px 0px 95px;
+}
+.login2 {
+	float:right;
+	padding:45px 35px 0px 0px;
+	font-size:16px;
+	color:#333333;
+}
+#enterExamRoom {
+	background:#eeeeee url(../images/bgYellow.png) 0px 0px no-repeat;
+	padding-top:80px;
+	border-top:1px #e5e5e5 solid;
+}
+.examRoom {
+	width:950px;
+	height:480px;
+	overflow:hidden;
+	margin:auto;
+	background-color:#FFF;
+}
+.examRoom h1 {
+	font-family:"微软雅黑";
+	font-size:24px;
+	font-style:normal;
+	text-align:center;
+	font-weight:normal;
+	color:#333333;
+	line-height:115px;
+}
+.examRoom .inputText1 {
+	width:180px;
+	height:30px;
+	border:1px #cecece solid;
+	line-height:30px;
+	float:left;
+}
+.examRoom .inputText {
+	width:320px;
+	height:40px;
+	border:1px #cecece solid;
+	line-height:40px;
+	float:left;
+}
+.examRoom dl {
+	clear:both;
+	height:70px;
+	overflow:hidden;
+}
+.examRoom dl dt {
+	float:left;
+	width:300px;
+	padding-right:15px;
+	text-align:right;
+	line-height:65px;
+	font-family:"微软雅黑";
+	font-size:18px;
+}
+.examRoom dl dd {
+	padding-top:15px;
+	font-size:18px;
+}
+.examRoom dl dd span {
+	color:#f02308;
+	font-family:"宋体";
+	font-size:12px;
+	background:url(../images/icon-01.png) 10px 11px no-repeat;
+	padding-left:33px;
+	height:20px;
+	overflow:hidden;
+	display:block;
+	padding-top:10px;
+}
+.enterRoomBtn {
+	background:url(../images/icon-02.png) 0px 0px no-repeat;
+	width:320px;
+	height:50px;
+	overflow:hidden;
+	border:none;
+	text-align:center;
+	font-size:18px;
+	color:#FFF;
+	line-height:50px;
+}
+.enterRoomBtnHover {
+	background:url(../images/icon-03.png) 0px 0px no-repeat;
+	width:320px;
+	height:50px;
+	overflow:hidden;
+	border:none;
+	text-align:center;
+	font-size:18px;
+	color:#FFF;
+	line-height:50px;
+}
+#examineeLogin {
+	background:#eeeeee url(../images/bgYellow.jpg) 0px 0px no-repeat;
+	border-top:1px #e5e5e5 solid;
+}
+.examRoom .verCode {
+	width:203px;
+	height:40px;
+	border:1px #cecece solid;
+	line-height:40px;
+	float:left;
+}
+.examRoom .verCodeImg {
+	float:left;
+	width:117px;
+	text-align:right;
+	overflow:hidden;
+}
+.examTip {
+	width:990px;
+	border-bottom:1px #e5e5e5 dashed;
+	margin:0px auto;
+	background-color:#FFF;
+	height:60px;
+	overflow:hidden;
+	font-size:18px;
+	line-height:60px;
+}
+.examTip .examProduct {
+	float:left;
+	padding:0px 20px;
+	color:#A0C001;
+}
+.examTip .examTime2 {
+	float:left;
+	padding:0px 10px;
+	color:#333333;
+}
+.examTip .nowTime2 {
+	float:right;
+	color:#333333;
+	padding-right:20px;
+}
+.examNotice {
+	width:990px;
+	background-color:#FFF;
+	margin:0px auto;
+	height:620px;
+	overflow:hidden;
+}
+.examNotice h1 {
+	font-family:"微软雅黑";
+	font-size:20px;
+	font-style:normal;
+	text-align:center;
+	font-weight:normal;
+	color:#333333;
+	line-height:70px;
+	padding-top:20px;
+}
+.examNoticeText {
+	width:898px;
+	height:398px;
+	margin:0px auto;
+	border:1px #d9d9d9 solid;
+	overflow:auto;
+}
+.examNoticeText h2 {
+	font-family:"微软雅黑";
+	font-size:16px;
+	text-align:center;
+	color:#262626;
+	line-height:50px;
+	padding-top:20px;
+}
+.examNoticeText p {
+	width:810px;
+	margin:0px auto;
+	line-height:28px;
+	font-size:14px;
+}
+.examNotice .answerBtn {
+	padding-top:50px;
+	text-align:center;
+}
+.answerBtn .btnWait {
+	background:url(../images/icon-04.png) 0px 0px no-repeat;
+	width:286px;
+	height:45px;
+	border:none;
+	font-size:18px;
+	color:#aaaaaa;
+	font-family:"微软雅黑";
+}
+.answerBtn .btnAnswer {
+	background:url(../images/icon-05.png) 0px 0px no-repeat;
+	width:286px;
+	height:45px;
+	border:none;
+	font-size:18px;
+	color:#fff;
+	font-family:"微软雅黑";
+}
+.answerBtn .btnAnswerHover {
+	background:url(../images/icon-06.png) 0px 0px no-repeat;
+	width:286px;
+	height:45px;
+	border:none;
+	font-size:18px;
+	color:#fff;
+	font-family:"微软雅黑";
+}
+.question{width:990px;
+	background-color:#FFF;
+	margin:0px auto;	
+	overflow:hidden;
+	line-height:25px;
+	position:relative;
+	}
+#subPapers{
+	position:absolute;
+	width:440px;
+	height:230px;
+	left:270px;
+	top:90px;
+	background-color:#FFF;
+	border:1px #bdbdbd solid;
+	overflow:hidden;
+	display:block;
+	}
+#subPapers h1{
+	font-size:20px;
+	color:#414141;
+	text-align:center;
+	padding:60px 0px 35px 0px;
+	}
+#subPapers .subBtn{
+	text-align:center;
+	}
+#subPapers .continueBtn{
+	background:url(../images/icon-07.png) 0px 0px no-repeat;
+	width:120px;
+	height:34px;
+	border:none;
+	color:#969696;
+	font-size:14px;
+	line-height:34px;
+	text-align:center;
+	margin-right:20px;
+	}
+#subPapers .subPaperBtn{
+	background:url(../images/icon-08.png) 0px 0px no-repeat;
+	width:120px;
+	height:34px;
+	border:none;
+	color:#ffffff;
+	font-size:14px;
+	line-height:34px;
+	text-align:center;
+	margin-left:20px;
+	}
+#subPapersing{
+	position:absolute;
+	width:490px;
+	height:165px;
+	left:270px;
+	top:90px;
+	background:url(../images/bgFlower.png) 0px 0px no-repeat;
+	overflow:hidden;
+	font-size:22px;
+	color:#2677d0;
+	text-align:center;
+	padding-top:95px;
+	display:none;
+	}
+#subPapersed{
+height:440px;
+	background:url(../images/bgSubPapers.png) center 0px no-repeat;
+	overflow:hidden;
+	font-size:22px;
+	color:#3E3E3E;
+	text-align:left;
+	padding:80px 280px 0px 100px;
+	line-height:45px;
+	}
+.clear10 {
+	height:10px;
+	clear:both;
+	overflow:hidden;
+}
+.clear20 {
+	height:20px;
+	clear:both;
+	overflow:hidden;
+}
+.clear30 {
+	height:30px;
+	clear:both;
+	overflow:hidden;
+}
+.clear50 {
+	height:50px;
+	clear:both;
+	overflow:hidden;
+}
+.clear80 {
+	height:80px;
+	clear:both;
+	overflow:hidden;
+}
+.clear150 {
+	height:150px;
+	clear:both;
+	overflow:hidden;
+}
+#footer {
+	text-align:center;
+	font-size:12px;
+	line-height:70px;
+	color:#FFFFFF;
+	background-color:#7B7B7B;
+}
+
+#blur_reminder{
+	border:1px #F7500 solid;
+	background:#f35d0a;
+	font-size:16px;
+	font-weight:bold;
+	color:#ffffff;
+	margin-top:10px;
+	width:168px;
+	padding:5px;
+	text-align:center;
+	line-height:28px;}
+
+#alert{width:400px;
+border:1px #206ec3 solid;
+	}
+#alert p{
+	background-color:#206ec3;
+	height:35px;
+	text-align:center;
+	color:#FFF;
+	font-size:16px;
+	font-family:"΢���ź�";
+	line-height:35px;
+	margin:0px;}
+#alert .alerText{
+	color:#59595b;
+	font-size:16px;
+	font-family:"΢���ź�";
+	line-height:35px;
+	padding:50px 0px 0px 170px;
+	background:url(images/alert.png) 20px 20px no-repeat;
+	height:160px;
+	}
